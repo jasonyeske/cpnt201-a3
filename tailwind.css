@@ -4,5 +4,22 @@
 
 @layer base {
 
-    
+    h2{
+
+@apply text-2xl font-mono;
+
+    }
+    p {
+
+       @apply text-lg font-mono;
+
+    }
+
+    header{
+        @apply text-2xl font-mono;
+    }
+    footer {
+        @apply text-lg font-mono;
+    }
+
 }
